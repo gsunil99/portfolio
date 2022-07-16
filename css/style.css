@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -8877,11 +8877,33 @@ h1, h2, h3, h4, h5,
     margin-bottom: 10px;
     font-weight: 500; }
 
+    .globe-container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    .centered {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .main-text {
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+    .yellow {
+      color: #ffbd39;
+    }
+
 .progress {
   height: 10px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #1a1a1a;
+  background: #050d22;
   overflow: visible; }
 
 .progress-bar {
@@ -9178,7 +9200,9 @@ textarea.form-control {
     -moz-box-shadow: 0 0 0 0 rgba(255, 189, 57, 0);
     -webkit-box-shadow: 0 0 0 0 rgba(255, 189, 57, 0);
     box-shadow: 0 0 0 0 rgba(255, 189, 57, 0); } }
-
+.subheading {
+  letter-spacing: 3px;
+}
 .heading-section {
   position: relative; }
   .heading-section .subheading {
